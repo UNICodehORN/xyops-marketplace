@@ -1,0 +1,26 @@
+{
+	"rows": [
+		{
+			"id": "pixlcore/xyplug-bluesky",
+			"title": "Bluesky Social",
+			"description": "Access your Bluesky social profile, read your timeline, make posts, leave likes, and more.",
+			"versions": ["1.0.3"],
+			"type": "plugin",
+			"license": "MIT",
+			"tags": ["bluesky", "social", "mcp"],
+			"requires": [ "npx", "uvx", "git" ],
+			"date": "2026-01-01"
+		},
+		{
+			"id": "pixlcore/xyplug-stagehand",
+			"title": "Stagehand",
+			"description": "An AI-powered browser automation framework for xyOps.  Drive a headless browser with simple English instructions, take actions, extract data, capture network requests, and even record a video of the whole session.",
+			"versions": ["1.0.9"],
+			"type": "plugin",
+			"license": "MIT",
+			"tags": ["stagehand", "playwright"],
+			"requires": [ "docker" ],
+			"date": "2026-01-01"
+		}
+	]
+}
